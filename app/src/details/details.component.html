@@ -1,0 +1,8 @@
+<div class="product-details" *ngIf="product">
+    <mat-card appearance="outlined">
+        <mat-card-header>{{product.name}}</mat-card-header>
+        <img mat-card-image [src]="product.image">
+        <mat-card-content>{{product.description}}</mat-card-content>
+    </mat-card>
+
+</div>

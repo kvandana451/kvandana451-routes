@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">My Application</mat-toolbar>
+<div class="fruits-menu">
+    <button mat-raised-button *ngFor="let fruit of data" (click)="onClick(fruit)">{{fruit.name}}</button>
+</div>
+
+<div *ngIf="showCard" class="fruit-card">
+    <mat-card appearance="outlined" style="margin-top:2em">
+        <mat-card-title style="text-align:center">{{showCard.name}}</mat-card-title>
+        <mat-card-content>{{showCard.txt}}</mat-card-content>
+    </mat-card>
+</div>
+<app-main></app-main>

@@ -1,0 +1,11 @@
+<div class="main-container">
+    <h1>Products</h1>
+    <div class="products-menu">
+        <button (click)="show(prod.id,prod.name)" mat-raised-button *ngFor="let prod of products">{{prod.name}}</button>
+        <!-- <button [routerLink]="['/details',prod.name,prod.id]" mat-raised-button
+            *ngFor="let prod of products">{{prod.name}}</button> -->
+    </div>
+    <h2>Details</h2>
+</div>
+<router-outlet></router-outlet>
+<app-mat-comp-demo></app-mat-comp-demo>
