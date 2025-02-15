@@ -5,7 +5,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 Key Points:::
 routerLink is used for <a> tags and all clickable elements(button).
 This project focuses on how to send multiple paramters to the route via routerLink as well as navigate() demonstrated in main-component.
-<router-outlet> can also be induced in which ever component we want not always in app-component,demonstrated in main-component
+router-outlet can also be induced in which ever component we want not always in app-component,demonstrated in main-component
 
 ## Development server
 
