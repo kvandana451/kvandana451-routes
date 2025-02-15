@@ -3,7 +3,7 @@
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0. but used Angular 16 for development....
 
 Key Points:::
-routerLink is used for <a> tags and all clickable elements(button).
+routerLink is used for anchor tags and all clickable elements(button).
 This project focuses on how to send multiple paramters to the route via routerLink as well as navigate() demonstrated in main-component.
 router-outlet can also be induced in which ever component we want not always in app-component,demonstrated in main-component
 
