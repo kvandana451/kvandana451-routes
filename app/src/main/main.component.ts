@@ -30,7 +30,7 @@ export class MainComponent {
   }
   show(id: string, name: string) {
     console.log(id, name);
-    this.router.navigate(['/details', { name: name, id: id }]);
+    this.router.navigate(['/details', name, id]);
   }
   ngOnInit() {
     this.getproducts();

@@ -18,7 +18,8 @@ export class DetailsComponent {
   ) {}
   ngOnInit() {
     this.route.params.subscribe((parameters) => {
-      const id = parameters['id'];
+      const id = decodeURIComponent(parameters['id']);
+      console.log(id);
       this.productService
         .productDetail(id)
         .subscribe((res) => (this.product = res));
